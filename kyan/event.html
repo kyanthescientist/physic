@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "h">
+        <p id = "p">
+        hello i am kyan v  hello i am kyan  hello i am kyan  hello i am kyan  hello i am kyan  hello i am kyan
+        hello i am kyan  hello i am kyan  hello i am kyan  hello i am kyan  hello i am kyanv
+        hello i am kyan  hello i am kyan  hello i am kyan  hello i am kyanv  hello i am kyan  hello i am kyan
+        hello i am kyan</p>3
+        <button id ="btn" onclick = "hide()"> show/hide</button>
+
+        </div>
+        <script>
+            function hide(){
+                let btn = document.getElementById('btn');
+                let p = document.getElementById('p');
+                if(p.style.display != 'none'){
+                    p.style.display = 'none';
+ 
+                }
+                else{
+                    p.style.display = 'block';
+                }
+
+            }
+
+
+            setTimeout( hide, 12000); 
+        </script>
+        
+
+    
+</body>
+</html>

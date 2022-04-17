@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: inline;
+        }
+        #box{
+            background-color: blue;
+            width: 250px;
+            height: 250px;
+            position:relative;
+        
+            
+            animation-duration:6s;
+            animation-iteration-count: 1
+            ;
+            animation-fill-mode: forwards;  /*it can be alternative also apply and check what it actually means*/
+            animation-timing-function: ease-in;/*check all the properties*/
+            animation-direction:alternate;/*check all properties*/
+           
+
+        }
+        #cont{background-color: green;
+            width: 250px;
+            height: 250px;
+             display: flex;
+             
+        
+            animation: kyan2 4s 1;
+
+
+        }
+
+        @keyframes kyan{
+            from{
+                width:250px;
+
+            }
+            to{
+                width:400px;
+                height: 300px;
+                
+            }
+        }
+        @keyframes kyan2{
+            0%{
+                top:0px;
+                left:0px;
+            }
+            25%{
+                top:250px;
+             left:0px;
+                     }
+                     100%{
+                         top: 0px;
+                         left:250px;
+                     }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box"></div>
+    
+    <div id="cont"></div>
+    </div>
+</div>
+
+</body>
+</html>

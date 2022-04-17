@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sh{
+            border:2px black solid;
+            border-radius: 35px;
+        background-color: red;
+        padding: 30px 30px;
+        margin: 40px 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p id = "p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores laudantium, consectetur quo minima, assumenda iusto, tempora odit nihil harum deserunt similique numquam explicabo possimus fugiat delectus voluptas soluta error aperiam!
+            </p>
+        </div>
+    </div>
+    <button id = "sh" onclick = "xx()">
+        show/hide
+
+    </button>
+    <script>
+
+function xx(){
+        let btn = document.getElementById('sh');
+        let para = document.getElementById('p'); 
+        if(p.style.display != 'none'){
+        p.style.display = 'none';
+        }
+        else{
+        p.style.display = 'block';
+        }
+    }
+
+        
+    </script>
+</body>
+</html>
